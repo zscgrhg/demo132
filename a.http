@@ -1,0 +1,1 @@
+http://localhost:8080/api/json?pretty=true&tree=jobs[name,buildable,builds[building,description,displayName,duration,estimatedDuration,executor,fingerprint,fullDisplayName,id,keepLog,number,queueId,result,timestamp,url]{0,2}]

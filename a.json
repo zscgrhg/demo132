@@ -1,0 +1,158 @@
+{
+  "_class": "hudson.model.Hudson",
+  "jobs": [
+    {
+      "_class": "hudson.model.FreeStyleProject",
+      "actions": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+      ],
+      "description": null,
+      "displayName": "hello123",
+      "displayNameOrNull": null,
+      "fullDisplayName": "hello123",
+      "fullName": "hello123",
+      "name": "hello123",
+      "url": "http://localhost:8080/job/hello123/",
+      "allBuilds": [],
+      "buildable": true,
+      "builds": [],
+      "color": "notbuilt",
+      "firstBuild": null,
+      "healthReport": [],
+      "inQueue": false,
+      "keepDependencies": false,
+      "lastBuild": null,
+      "lastCompletedBuild": null,
+      "lastFailedBuild": null,
+      "lastStableBuild": null,
+      "lastSuccessfulBuild": null,
+      "lastUnstableBuild": null,
+      "lastUnsuccessfulBuild": null,
+      "nextBuildNumber": 1,
+      "property": [],
+      "queueItem": null,
+      "concurrentBuild": false,
+      "downstreamProjects": [],
+      "labelExpression": null,
+      "scm": {
+        "_class": "hudson.scm.NullSCM"
+      },
+      "upstreamProjects": []
+    },
+    {
+      "_class": "hudson.model.FreeStyleProject",
+      "actions": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+      ],
+      "description": "",
+      "displayName": "helloJks",
+      "displayNameOrNull": null,
+      "fullDisplayName": "helloJks",
+      "fullName": "helloJks",
+      "name": "helloJks",
+      "url": "http://localhost:8080/job/helloJks/",
+      "allBuilds": [
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        }
+      ],
+      "buildable": true,
+      "builds": [
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        },
+        {
+          "_class": "hudson.model.FreeStyleBuild"
+        }
+      ],
+      "color": "blue",
+      "firstBuild": {
+        "_class": "hudson.model.FreeStyleBuild"
+      },
+      "healthReport": [
+        {}
+      ],
+      allBuilds
+      "keepDependencies": false,
+      "lastBuild": {
+        "_class": "hudson.model.FreeStyleBuild"
+      },
+      "lastCompletedBuild": {
+        "_class": "hudson.model.FreeStyleBuild"
+      },
+      "lastFailedBuild": null,
+      "lastStableBuild": {
+        "_class": "hudson.model.FreeStyleBuild"
+      },
+      "lastSuccessfulBuild": {
+        "_class": "hudson.model.FreeStyleBuild"
+      },
+      "lastUnstableBuild": null,
+      "lastUnsuccessfulBuild": null,
+      "nextBuildNumber": 7,
+      "property": [
+        {
+          "_class": "com.sonyericsson.rebuild.RebuildSettings"
+        },
+        {
+          "_class": "hudson.plugins.throttleconcurrents.ThrottleJobProperty"
+        }
+      ],
+      "queueItem": null,
+      "concurrentBuild": false,
+      "downstreamProjects": [],
+      "labelExpression": null,
+      "scm": {
+        "_class": "hudson.scm.NullSCM"
+      },
+      "upstreamProjects": []
+    }
+  ]
+}
